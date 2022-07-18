@@ -2,6 +2,14 @@
 
 Generate markdown documentation for CloudFormation templates
 
+## Usage
+
+```shell
+python -m cfn_doc /path/to/template.yaml
+```
+
+A `template-doc.md` file is generated at `/path/to/template-doc.md`.
+
 ## Run tests
 
 In the repository directory, create and use a virtual environment:
